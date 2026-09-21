@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "bienvenue",
+    "title": "Bienvenue dans l'atelier",
+    "date": "2026-09-18",
+    "summary": "Pourquoi ce site existe, et ce que vous y trouverez.",
+    "cover": "images/brume-de-cuivre.svg"
+  },
+  {
+    "slug": "creer-ses-images",
+    "title": "Comment naissent mes images",
+    "date": "2026-08-30",
+    "summary": "Trois familles de formes, une palette, un peu de grain : la recette, sans le mystère.",
+    "cover": "images/maree-haute.svg"
+  },
+  {
+    "slug": "ajouter-un-article",
+    "title": "Publier un article en trois étapes",
+    "date": "2026-07-15",
+    "summary": "Un fichier Markdown, une ligne de JSON, un git push. C'est tout.",
+    "cover": "images/cercles-du-soir.svg"
+  }
+]

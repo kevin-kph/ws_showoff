@@ -1,0 +1,92 @@
+[
+  {
+    "src": "images/brume-de-cuivre.svg",
+    "title": "Brume de cuivre",
+    "description": "Des nappes chaudes qui se recouvrent lentement.",
+    "date": "2026-09-14",
+    "width": 1200,
+    "height": 800,
+    "color": "#8E2447",
+    "alt": "Brume de cuivre : Des nappes chaudes qui se recouvrent lentement."
+  },
+  {
+    "src": "images/maree-haute.svg",
+    "title": "Marée haute",
+    "description": "Six couches de vagues sous un soleil pâle.",
+    "date": "2026-09-02",
+    "width": 800,
+    "height": 1000,
+    "color": "#0F7B8A",
+    "alt": "Marée haute : Six couches de vagues sous un soleil pâle."
+  },
+  {
+    "src": "images/cercles-du-soir.svg",
+    "title": "Cercles du soir",
+    "description": "Des ondes concentriques au crépuscule.",
+    "date": "2026-08-21",
+    "width": 1000,
+    "height": 1000,
+    "color": "#4A3CF7",
+    "alt": "Cercles du soir : Des ondes concentriques au crépuscule."
+  },
+  {
+    "src": "images/glace-fine.svg",
+    "title": "Glace fine",
+    "description": "Une palette froide, presque monochrome.",
+    "date": "2026-08-09",
+    "width": 1200,
+    "height": 900,
+    "color": "#2F4858",
+    "alt": "Glace fine : Une palette froide, presque monochrome."
+  },
+  {
+    "src": "images/reliefs-bleus.svg",
+    "title": "Reliefs bleus",
+    "description": "Un paysage stylisé en aplats superposés.",
+    "date": "2026-07-27",
+    "width": 800,
+    "height": 1200,
+    "color": "#1F4E9E",
+    "alt": "Reliefs bleus : Un paysage stylisé en aplats superposés."
+  },
+  {
+    "src": "images/foret-sonore.svg",
+    "title": "Forêt sonore",
+    "description": "Des verts profonds et une lumière filtrée.",
+    "date": "2026-07-11",
+    "width": 1200,
+    "height": 700,
+    "color": "#3E5C3A",
+    "alt": "Forêt sonore : Des verts profonds et une lumière filtrée."
+  },
+  {
+    "src": "images/onde-de-choc.svg",
+    "title": "Onde de choc",
+    "description": "Le rouge et le noir, en cercles épais.",
+    "date": "2026-06-30",
+    "width": 900,
+    "height": 1200,
+    "color": "#7A1F2B",
+    "alt": "Onde de choc : Le rouge et le noir, en cercles épais."
+  },
+  {
+    "src": "images/horizon-nocturne.svg",
+    "title": "Horizon nocturne",
+    "description": "Des couleurs saturées pour une nuit imaginaire.",
+    "date": "2026-06-12",
+    "width": 1000,
+    "height": 800,
+    "color": "#6B2FBB",
+    "alt": "Horizon nocturne : Des couleurs saturées pour une nuit imaginaire."
+  },
+  {
+    "src": "images/braise.svg",
+    "title": "Braise",
+    "description": "Un dégradé de chaleur qui refuse de s’éteindre.",
+    "date": "2026-05-29",
+    "width": 1200,
+    "height": 1200,
+    "color": "#6A1B4D",
+    "alt": "Braise : Un dégradé de chaleur qui refuse de s’éteindre."
+  }
+]
