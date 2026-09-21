@@ -5,8 +5,8 @@
    Astuce : un titre court (moins de 12 caractères) rend mieux dans le hero.
    ===================================================================== */
 const CONFIG = {
-  title: 'Mon Atelier',
-  tagline: 'Des images que je fabrique, et des notes sur la façon dont je les fabrique.',
+  title: 'KPH Workshop',
+  tagline: 'A portfolio to show my work. I designed this website and its content.',
   lang: 'fr-FR',
 };
 
@@ -331,23 +331,23 @@ function pageHome() {
       <h1 class="hero-title" id="hero-title"></h1>
       <p class="tagline">${esc(CONFIG.tagline)}</p>
       <div class="actions">
-        <a class="btn" href="#/galerie">Voir la galerie</a>
-        <a class="btn ghost" href="#/blog">Lire le blog</a>
+        <a class="btn" href="#/galerie">See pictures</a>
+        <a class="btn ghost" href="#/blog">Read blog</a>
       </div>
     </section>
 
     <section class="wrap section">
       <div class="section-head">
         <h2>Dernières images</h2>
-        <a href="#/galerie">Toute la galerie</a>
+        <a href="#/galerie">All the pictures</a>
       </div>
       ${galleryHTML(imgs)}
     </section>
 
     <section class="wrap section">
       <div class="section-head">
-        <h2>Derniers articles</h2>
-        <a href="#/blog">Tous les articles</a>
+        <h2>Last articles</h2>
+        <a href="#/blog">All the articles</a>
       </div>
       ${postListHTML(state.posts.slice(0, 3))}
     </section>`;
@@ -360,19 +360,19 @@ function pageHome() {
 function pageGallery() {
   app.innerHTML = `
     <section class="wrap page-head">
-      <h1>Galerie</h1>
-      <p>${state.images.length} images. Cliquez sur l'une d'elles pour l'agrandir, puis naviguez avec les flèches du clavier.</p>
+      <h1>Pictures</h1>
+      <p>${state.images.length} images. Click on a picture to zoom-in, navigate with arrows.</p>
     </section>
     <section class="wrap">${galleryHTML(state.images)}</section>`;
   bindGallery($('.gallery'), state.images);
-  document.title = `Galerie | ${CONFIG.title}`;
+  document.title = `Pictures | ${CONFIG.title}`;
 }
 
 function pageBlog() {
   app.innerHTML = `
     <section class="wrap page-head">
       <h1>Blog</h1>
-      <p>Notes de travail, méthodes et coulisses.</p>
+      <p>Notes, experiment and more.</p>
     </section>
     <section class="wrap">${postListHTML(state.posts)}</section>`;
   watchImages(app);
@@ -400,7 +400,7 @@ async function pageArticle(slug) {
   app.innerHTML = `
     <article>
       <header class="article-head">
-        <div class="meta"><time datetime="${esc(post.date)}">${fmtDate(post.date)}</time>, ${minutes} min de lecture</div>
+        <div class="meta"><time datetime="${esc(post.date)}">${fmtDate(post.date)}</time>, ${minutes} min of reading</div>
         <h1>${esc(post.title)}</h1>
         ${post.summary ? `<p class="lead">${esc(post.summary)}</p>` : ''}
       </header>
@@ -408,8 +408,8 @@ async function pageArticle(slug) {
       <div class="prose">${markdown(src)}</div>
     </article>
     <nav class="article-nav" aria-label="Autres articles">
-      ${older ? `<a class="prev" href="#/blog/${esc(older.slug)}"><small>Article précédent</small><strong>${esc(older.title)}</strong></a>` : ''}
-      ${newer ? `<a class="next" href="#/blog/${esc(newer.slug)}"><small>Article suivant</small><strong>${esc(newer.title)}</strong></a>` : ''}
+      ${older ? `<a class="prev" href="#/blog/${esc(older.slug)}"><small>Previous article</small><strong>${esc(older.title)}</strong></a>` : ''}
+      ${newer ? `<a class="next" href="#/blog/${esc(newer.slug)}"><small>Next article</small><strong>${esc(newer.title)}</strong></a>` : ''}
     </nav>`;
 
   // Les images de l'article s'ouvrent dans la visionneuse
